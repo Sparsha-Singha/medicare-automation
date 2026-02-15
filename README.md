@@ -17,25 +17,24 @@ This project covers authentication, navigation, registration workflows, and pres
 
 ## 📁 Project Structure
 
-medicare-automation/  
-
-│  
-
-├── pages/ # Page Object classes  
-
-│ ├── LoginPage.ts
-│ ├── NavigationPage.ts
-│ ├── RegistrationPage.ts
+## 📁 Project Structure
+```
+medicare-automation/
 │
-├── tests/ # Test cases
-│ ├── register.spec.ts
-│ ├── prescription.spec.ts
+├── pages/                  # Page Object classes
+│   ├── LoginPage.ts
+│   ├── NavigationPage.ts
+│   ├── RegistrationPage.ts
 │
-├── playwright.config.ts # Playwright configuration
+├── tests/                  # Test cases
+│   ├── register.spec.ts
+│   ├── prescription.spec.ts
+│
+├── playwright.config.ts    # Playwright configuration
 ├── package.json
 ├── tsconfig.json
 └── README.md
-
+```
 
 ## ⚙️ Installation
 
