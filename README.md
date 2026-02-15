@@ -48,6 +48,7 @@ medicare-automation/
 git clone https://github.com/Sparsha-Singha/medicare-automation.git
 cd medicare-automation
 npm install
+```
 
 🔐 Environment
 Tested on: Chrome (Playwright Chromium)
