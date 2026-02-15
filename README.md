@@ -43,10 +43,7 @@ npm install
 
 🔐 Environment
 
-Tested on:
-
-Chrome (Playwright Chromium)
-
+Tested on: Chrome (Playwright Chromium)
 Windows OS
 
 
