@@ -17,9 +17,12 @@ This project covers authentication, navigation, registration workflows, and pres
 
 ## 📁 Project Structure
 
-medicare-automation/
-│
-├── pages/ # Page Object classes
+medicare-automation/  
+
+│  
+
+├── pages/ # Page Object classes  
+
 │ ├── LoginPage.ts
 │ ├── NavigationPage.ts
 │ ├── RegistrationPage.ts
@@ -42,13 +45,11 @@ cd medicare-automation
 npm install
 
 🔐 Environment
-
 Tested on: Chrome (Playwright Chromium)
 Windows OS
 
 
 👨‍💻 Author
-
 Sparsha Singha
 SQA Engineer | Automation Tester
 GitHub: https://github.com/Sparsha-Singha
