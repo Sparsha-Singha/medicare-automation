@@ -1,7 +1,7 @@
 # 🏥 Medicare Automation (Playwright)
 
 Automated end-to-end testing project for the **Medicare Web Client** using **Playwright** with a Page Object Model (POM) architecture.  
-This project covers authentication, navigation, registration workflows, and prescription system automation.
+This project covers authentication, navigation, registration, reception workflows, and prescription system automation.
 
 ---
 
@@ -15,20 +15,26 @@ This project covers authentication, navigation, registration workflows, and pres
 
 ---
 
-## 📁 Project Structure
 
 ## 📁 Project Structure
 ```
 medicare-automation/
 │
 ├── pages/                  # Page Object classes
+│   ├── BasePage.ts
 │   ├── LoginPage.ts
 │   ├── NavigationPage.ts
+│   ├── OpdReceptionPage.ts
+│   ├── PrescriptionFlowPage.ts
+│   ├── PrescriptionPage.ts
 │   ├── RegistrationPage.ts
 │
 ├── tests/                  # Test cases
-│   ├── register.spec.ts
+│   ├── auth.spec.ts
+│   ├── opdReception.spec.ts
 │   ├── prescription.spec.ts
+│   ├── prescriptionFlow.spec.ts
+│   ├── registrationNavigation.spec.ts
 │
 ├── playwright.config.ts    # Playwright configuration
 ├── package.json
